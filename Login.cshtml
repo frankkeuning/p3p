@@ -9,7 +9,7 @@
         password = Request["password"];
         if(WebSecurity.Login(username,password,true))
         {
-            //Response.Redirect("~/Members/Manage");
+            Response.Redirect("~/Default");
         }
         else
         {

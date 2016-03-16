@@ -1,0 +1,8 @@
+.stage{
+	border-bottom: thin solid gray;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.stage:last-child{
+	border-bottom: none;
+}

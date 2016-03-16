@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>StageHub</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>.stage{
+	border-bottom: thin solid gray;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.stage:last-child{
+	border-bottom: none;
+}
+  </style></head>
+  <body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">StageHub</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <!-- als er is ingelogd (als student/bedrijfsleider/admin) -->
+        <li><a href="#">Stage toevoegen</a></li>
+        <!-- als administrator is ingelogd -->
+        <li><a href="#">Stages beheren</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <h1>Stage overzicht</h1>
+    <h2>Voorbeelden van items op een pagina laten zien afgescheiden door streep</h2>
+    <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Zoeken...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Zoek!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><br /><br />
+	<div class="fluid-container content-container" id="stages">
+		<div class="stage">
+  		<div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+  		<div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+  		</div>
+      <div style="clear:both"></div>
+    </div>
+        <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>    <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>    <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>    <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>    <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>    <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>    <div class="stage">
+      <div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+      <div class="col-sm-6 col-lg-4 content"><b>Stage 1</b><p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <!--
+				<div class="stage">
+		<div class="col-md-1 side-image"><img class="img-responsive" src="http://placehold.it/350"></div>
+		<div class="col-sm-6 col-lg-4 content"><b>Stage 2</b><p class="">orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><a href="#">link</a>
+		</div>
+		<div style="clear:both"></div>
+		</div>
+	</div>
+   	<h2>Voorbeeld tabel 1 (standaard)</h2>
+	<table class="table"><thead> <tr> <th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> </tr> </thead> <tbody> <tr> <th scope="row">1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td> </tr> </tbody> </table>
+   	<h2>Voorbeeld tabel 2 (gestreept)</h2>
+   	<table class="table table-striped"> <thead> <tr> <th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> </tr> </thead> <tbody> <tr> <th scope="row">1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td> </tr> </tbody> </table>
+   	<h2>Voorbeeld tabel 3 (met borders)</h2>
+   	<table class="table table-bordered"> <thead> <tr> <th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> </tr> </thead> <tbody> <tr> <th scope="row">1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td> </tr> </tbody> </table>
+   	<h2>Voorbeeld tabel 4 (hover over de items om het verschil te zien met 1)</h2>
+	<table class="table table-hover"> <thead> <tr> <th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> </tr> </thead> <tbody> <tr> <th scope="row">1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td> </tr> </tbody> </table>
+	<h2>3 en 4 gecombineerd</h2>
+		<table class="table table-hover table-bordered"> <thead> <tr> <th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> </tr> </thead> <tbody> <tr> <th scope="row">1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td> </tr> </tbody> </table>
+	<h2>2 en 4 gecombineerd</h2>
+		<table class="table table-hover table-striped"> <thead> <tr> <th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> </tr> </thead> <tbody> <tr> <th scope="row">1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td> </tr> </tbody> </table>
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

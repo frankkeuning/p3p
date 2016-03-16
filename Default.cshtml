@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/_Layout.cshtml";
+    Page.Title = "Stagehub";
+}
+
+<h1>Stagehub Homepage</h1>
+@if(WebSecurity.IsAuthenticated)
+{
+    <p>Welcome @WebSecurity.CurrentUserName click <a href="@Href("~/Logout")">here</a> to logout.</p>
+}
+else
+{
+    <p>You are not logged in, click <a href="@Href("~/Login")">here</a> to login.</p>
+}
+
